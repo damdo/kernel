@@ -1249,6 +1249,7 @@ kernel/net/sched/sch_tbf.ko
 kernel/net/sched/cls_cgroup.ko
 kernel/net/netfilter/nfnetlink.ko
 kernel/net/netfilter/nfnetlink_queue.ko
+kernel/net/netfilter/nfnetlink_log.ko
 kernel/net/netfilter/nf_conntrack.ko
 kernel/net/netfilter/nf_conntrack_netlink.ko
 kernel/net/netfilter/nf_conntrack_ftp.ko
@@ -1278,13 +1279,17 @@ kernel/net/netfilter/xt_tcpudp.ko
 kernel/net/netfilter/xt_mark.ko
 kernel/net/netfilter/xt_nat.ko
 kernel/net/netfilter/xt_LOG.ko
+kernel/net/netfilter/xt_NFLOG.ko
 kernel/net/netfilter/xt_REDIRECT.ko
 kernel/net/netfilter/xt_MASQUERADE.ko
 kernel/net/netfilter/xt_addrtype.ko
 kernel/net/netfilter/xt_comment.ko
 kernel/net/netfilter/xt_conntrack.ko
 kernel/net/netfilter/xt_ipvs.ko
+kernel/net/netfilter/xt_limit.ko
 kernel/net/netfilter/xt_multiport.ko
+kernel/net/netfilter/xt_physdev.ko
+kernel/net/netfilter/xt_statistic.ko
 kernel/net/netfilter/ipset/ip_set.ko
 kernel/net/netfilter/ipvs/ip_vs.ko
 kernel/net/netfilter/ipvs/ip_vs_rr.ko
